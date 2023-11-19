@@ -1,0 +1,184 @@
+* { 
+    margin: 0;
+    border: border-box;
+}
+body {
+    background-color: white;
+    color: whitesmoke;
+}
+header {
+    position: fixed;
+    width: 100%;
+}
+.logo {
+    height: 35px;
+    width: 35px;
+    margin-left: 200px;
+}
+.top {
+    background-color: black;
+    height: 60px;
+    color:aliceblue;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-color: black black greenyellow black;
+    justify-content: space-between;
+ }
+.navi a{
+    justify-content: space-between;
+    padding: 0px 20px;
+    color: grey;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navi-search {
+    color: grey;
+    height: 17px;
+    width: 20px;
+    align-items: center;
+    margin-right: 50px;
+}
+.shopping-cart {
+    height: 17px;
+    width: 20px;
+    color: grey;
+    align-items: center;
+    margin-right: 300px;
+
+}
+.navi a:hover,.navi-search:hover,.shopping-cart:hover {
+    color: whitesmoke;
+    font-weight: 700;
+}
+.top2 {
+    background-color: rgb(69, 67, 67);
+    color: whitesmoke;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    height: 44px;
+    justify-content: center;
+    font-size: 7px;
+    font-style: normal;
+
+}
+.top2 a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+.top2 a:hover{
+    text-decoration: underline;
+}
+.set3 {
+    background-image: url(1stnewimage1.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding-right: 50px;
+}
+.set3 a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: larger;
+    padding-top: 10px;
+}
+.set3 a:hover{
+    text-decoration: underline;
+}
+.para3 {
+    padding-top: 10px;
+
+}
+.set4 {
+    background-image: url(2ndnewImage.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding-right: 50px;
+}
+.set4 a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: larger;
+    padding-top: 10px;
+}
+.set4 a:hover{
+    text-decoration: underline;
+}
+.para4 {
+    padding-top: 10px;
+
+}
+hr.one {
+    border: none;
+    height: 8px;
+    background-color: rgb(67, 62, 62);
+
+}
+.bottom {
+    background-color: black;    
+    display: flex;
+    border-style: bold;
+    height: 450px;
+    justify-content: space-evenly;
+
+}
+.shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    margin-top: 25px;
+
+}
+.shop a{
+    color: lightgrey;
+    text-decoration: none;
+
+}
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    margin-top: 25px;
+}
+.explore a{
+    color: lightgrey;
+    text-decoration: none;
+
+}
+.followus {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+.followus a{
+    color: lightgrey;
+    text-decoration: none;
+}
+.tag {
+    color: greenyellow;
+    margin-top: 25px;
+
+}
